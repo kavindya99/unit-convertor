@@ -464,12 +464,17 @@ void area::on_convert_button_clicked()
                 ui->answer_label->setText(QString::number(answer));
             }
         }
-
+        ui->answer_label->setText("");
+        ui->answer_label->setStyleSheet("QLabel{color:rgba(97, 144, 198, 1);font: 75 25pt;font-weight:bold;}");
         ui->answer_label->setText(QString::number(answer));
     }
-    else{
-        ui->answer_label->setText("Invalid Input");
+    else if(value==""){
         ui->answer_label->setStyleSheet("QLabel{ color: rgb(170, 14, 48);\nfont: 75 25pt;font-weight:bold;}");
+        ui->answer_label->setText("Enter a Value");
+    }
+    else{
+        ui->answer_label->setStyleSheet("QLabel{ color: rgb(170, 14, 48);\nfont: 75 25pt;font-weight:bold;}");
+        ui->answer_label->setText("Invalid Input");
     }
 
 }
