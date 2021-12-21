@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>601</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resource/res/Group a32.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="area_button">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>150</y>
+      <width>250</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(29, 49, 72, 1);
+color: rgb(255, 255, 255);
+font: 75 15pt &quot;Roboto&quot;;
+border:none;
+border-radius:10px;
+font-weight:bold;</string>
+    </property>
+    <property name="text">
+     <string>Area</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>40</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;Roboto&quot;;
+font-weight:bold;
+color: rgba(102, 102, 102, 1);
+letter-spacing: 0.1em;</string>
+    </property>
+    <property name="text">
+     <string>CONVERTOR</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>40</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/resource/res/Groupa 30.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="length_button">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>150</y>
+      <width>250</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(29, 49, 72, 1);
+color: rgb(255, 255, 255);
+font: 75 15pt &quot;Roboto&quot;;
+border:none;
+border-radius:10px;
+font-weight:bold;</string>
+    </property>
+    <property name="text">
+     <string>Length</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="weight_button">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>569</y>
+      <width>250</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(29, 49, 72, 1);
+color: rgb(255, 255, 255);
+font: 75 15pt &quot;Roboto&quot;;
+border:none;
+border-radius:10px;
+font-weight:bold;</string>
+    </property>
+    <property name="text">
+     <string>Weight</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="time_button">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>630</y>
+      <width>250</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(29, 49, 72, 1);
+color: rgb(255, 255, 255);
+font: 75 15pt &quot;Roboto&quot;;
+border:none;
+border-radius:10px;
+font-weight:bold;</string>
+    </property>
+    <property name="text">
+     <string>Time</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volume_button">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>410</y>
+      <width>250</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(29, 49, 72, 1);
+color: rgb(255, 255, 255);
+font: 75 15pt &quot;Roboto&quot;;
+border:none;
+border-radius:10px;
+font-weight:bold;</string>
+    </property>
+    <property name="text">
+     <string>Volume</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="temperature_button">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>329</y>
+      <width>250</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(29, 49, 72, 1);
+color: rgb(255, 255, 255);
+font: 75 15pt &quot;Roboto&quot;;
+border:none;
+border-radius:10px;
+font-weight:bold;</string>
+    </property>
+    <property name="text">
+     <string>Temperature</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>570</y>
+      <width>451</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(51, 101, 138);
+font: 100 15pt &quot;MS Shell Dlg 2&quot;;
+letter-spacing: 0.2em;</string>
+    </property>
+    <property name="text">
+     <string>Quick unit converter that converts &lt;br&gt; common units of measurement &lt;br&gt; for your easiness</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>-20</y>
+      <width>391</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resource/res/GettyImages-455313485-5899349a3df78caebc0c30da-removebg-preview_2-removebg-preview 1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>470</y>
+      <width>321</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resource/res/GettyImages-455313485-5899349a3df78caebc0c30da-removebg-preview_2-removebg-preview 1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>90</y>
+      <width>671</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resource/res/GettyImages-455313485-5899349a3df78caebc0c30da-removebg-preview_2-removebg-preview 1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>-50</y>
+      <width>521</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resource/res/GettyImages-455313485-5899349a3df78caebc0c30da-removebg-preview_2-removebg-preview 1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>340</y>
+      <width>671</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resource/res/GettyImages-455313485-5899349a3df78caebc0c30da-removebg-preview_2-removebg-preview 1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>580</y>
+      <width>341</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resource/res/GettyImages-455313485-5899349a3df78caebc0c30da-removebg-preview_2-removebg-preview 1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>670</y>
+      <width>371</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/resource/res/GettyImages-455313485-5899349a3df78caebc0c30da-removebg-preview_2-removebg-preview 1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_11</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label</zorder>
+   <zorder>area_button</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>length_button</zorder>
+   <zorder>weight_button</zorder>
+   <zorder>time_button</zorder>
+   <zorder>volume_button</zorder>
+   <zorder>temperature_button</zorder>
+   <zorder>label_4</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>area</class>
+ <widget class="QDialog" name="area">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QComboBox" name="from_combobox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>310</y>
+     <width>440</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+font: 75 15pt &quot;Roboto&quot;;
+color: rgba(97, 144, 198, 1);
+border:3px solid rgba(29, 49, 72, 1);
+border-radius:10px;
+padding-left:20px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mainwindow_button">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>70</y>
+     <width>41</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/resource/res/Group 29.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>70</y>
+     <width>911</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 30pt &quot;Roboto&quot;;
+font-weight:bold;
+color:rgba(97, 144, 198, 1);
+</string>
+   </property>
+   <property name="text">
+    <string>CONVERT AREA</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="from_value">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>310</y>
+     <width>321</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 15pt &quot;Roboto&quot;;
+color: rgba(29, 49, 72, 1);
+border:none;
+border: 3px solid rgba(97, 144, 198, 1);
+border-radius:10px;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="to_combobox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>480</y>
+     <width>440</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+font: 75 15pt &quot;Roboto&quot;;
+color: rgba(97, 144, 198, 1);
+border:3px solid rgba(29, 49, 72, 1);
+border-radius:10px;
+padding-left:20px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="answer_label">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>450</y>
+     <width>321</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+color:rgba(97, 144, 198, 1);
+font: 75 40pt &quot;Roboto&quot;;
+font-weight:bold;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>230</y>
+     <width>101</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Roboto&quot;;
+color: rgba(29, 49, 72, 1);
+font-weight:bold;</string>
+   </property>
+   <property name="text">
+    <string>Value :</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="convert_button">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>620</y>
+     <width>231</width>
+     <height>99</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Roboto&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(97, 144, 198, 1);
+font-weight:bold;
+border:none;
+border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>Convert</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>320</y>
+     <width>94</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Roboto&quot;;
+color: rgba(29, 49, 72, 1);
+font-weight:bold;</string>
+   </property>
+   <property name="text">
+    <string>From :</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>490</y>
+     <width>53</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Roboto&quot;;
+color: rgba(29, 49, 72, 1);
+font-weight:bold;</string>
+   </property>
+   <property name="text">
+    <string>To :</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear_button">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>620</y>
+     <width>231</width>
+     <height>99</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Roboto&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(97, 144, 198, 1);
+font-weight:bold;
+border:none;
+border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>10</y>
+     <width>721</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/resource/res/GettyImages-455313485-5899349a3df78caebc0c30da-removebg-preview_2-removebg-preview 1.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>from_combobox</zorder>
+  <zorder>mainwindow_button</zorder>
+  <zorder>label</zorder>
+  <zorder>from_value</zorder>
+  <zorder>to_combobox</zorder>
+  <zorder>answer_label</zorder>
+  <zorder>label_5</zorder>
+  <zorder>convert_button</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>clear_button</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
