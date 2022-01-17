@@ -466,7 +466,7 @@ void area::on_convert_button_clicked()
         }
         ui->answer_label->setText("");
         ui->answer_label->setStyleSheet("QLabel{color:rgba(97, 144, 198, 1);font: 75 25pt;font-weight:bold;}");
-        ui->answer_label->setText(QString::number(answer));
+        ui->answer_label->setText(QString::number(answer,'f',2));
     }
     else if(value==""){
         ui->answer_label->setStyleSheet("QLabel{ color: rgb(170, 14, 48);\nfont: 75 25pt;font-weight:bold;}");
